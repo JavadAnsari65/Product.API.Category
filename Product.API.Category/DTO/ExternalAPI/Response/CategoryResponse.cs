@@ -1,0 +1,13 @@
+﻿using Product.API.Category.Infrastructure.Entities;
+
+namespace Product.API.Category.DTO.ExternalAPI.Response
+{
+    public class CategoryResponse
+    {
+        public int CatId { get; set; }
+        public int ParentCatId { get; set; } = 0;
+        public string Name { get; set; }
+        public string Description { get; set; }
+
+    }
+}
